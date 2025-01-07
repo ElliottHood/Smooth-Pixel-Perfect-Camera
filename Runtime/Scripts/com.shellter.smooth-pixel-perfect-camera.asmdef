@@ -1,7 +1,11 @@
 {
-    "name": "SmoothPixelPerfectCamera",
+    "name": "com.shellter.smooth-pixel-perfect-camera",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:e5d5f6b034d6ea249a487ea232ca837c",
+        "GUID:85415b7d293f9b04d99d1f79c92bfd01"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

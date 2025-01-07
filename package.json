@@ -1,8 +1,8 @@
 {
-    "name": "com.shellter.effector-value",
+    "name": "com.shellter.smooth-pixel-perfect-camera",
     "version": "1.0.0",
-    "displayName": "Effector Values",
-    "description": "Animate float values and combine them into a single output that can be altered at runtime.",
+    "displayName": "Smooth Pixel Perfect Camera",
+    "description": "A pixel perfect camera that supports sub-pixel movement",
     "unity": "2022.3",
     "author": {
       "name": "Elliott Hood",
@@ -11,8 +11,8 @@
     },
     "samples": [
       {
-        "displayName": "Effector Value Demo",
-        "description": "A sample scene to demonstrate the package.",
+        "displayName": "Demo",
+        "description": "A sample scene to demonstrate the package. REQUIRES Custom-Camera package!",
         "path": "Samples~/Sample Scene"
       }
     ]
