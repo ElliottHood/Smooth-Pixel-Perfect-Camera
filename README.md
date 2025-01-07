@@ -11,16 +11,20 @@ Implementation:
 - Then the Pixel -> Screen camera re-renders the render texture at full resolution with the subpixel offset
     - This is where we apply post-processing effects like bloom so that those effects run at full resolution
 
+ The Pixel -> Screen camera is the MAIN CAMERA, and therefore should have the CinemachineBrain component
+ 
+ For other resolutions, you can change the value in the SmoothPixelPerfect script
+
 ## References
 
 - Inspired by aarthificial, who has created an excellent explanation on the topic: https://www.youtube.com/watch?v=jguyR4yJb1M
 
 ## Known Bugs / Quirks 
 
-- Sometimes TextMeshPro doesn't perfectly align the pixels
-- Since the main camera can only see the Pixelated and UI layers, all Virtual Camera's MUST be on the Pixelated/UI layer
-- UI elements and elements that you want to be able to interact with (ex. OnMouseDown()) must be on the UI layer, 
+- Since the main camera can only see the Pixelated and UI layers, all Virtual Camera's MUST be on the Pixelated/UI layer or they won't affect the Cinemachine Brain
+- Interactable UI elements (including GameObjects with OnMouseDown()) must be on the UI layer, 
     - Otherwise the Main Camera will not render them and therefore not be able to hit them with a raycast
+- The provided 3x5 pixel-perfect font isn't always perfectly aligned due imperfections in from TextMeshPro's mesh rendering algorithm
 
 ## Dependencies
 
@@ -30,8 +34,8 @@ Implementation:
 
 ### Using Unity Package Manager
 
+1. Set layer 3 to be 'Pixelated'
 1. Go to **Window > Package Manager**.
-2. Install [DOTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676#description) and follow the installation popups (no extra libraries necessary)
 2. Install Cinemachine
 3. Click the **+** button in the top-left corner.
 4. Select **Add package from git URL...**.
