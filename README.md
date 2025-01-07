@@ -3,7 +3,7 @@
 Achieve a low-resolution effect while keeping consistent shapes for sprites and objects that are not aligned perfectly with a grid without rough pixel snapping.
 Upscaling the low-resolution effect again allows us to get sub-pixel camera movement and smooth post processing effects
 
-[![Demo Video](https://raw.githubusercontent.com/ElliottHood/main/Smooth-Pixel-Perfect-Camera/GithubResources/thumbnail.png)](https://raw.githubusercontent.com/ElliottHood/main/Smooth-Pixel-Perfect-Camera/GithubResources/Demo1.mp4)
+[![Demo Video](https://github.com/ElliottHood/Smooth-Pixel-Perfect-Camera/raw/refs/heads/main/GithubResources/thumbnail.png)](https://github.com/ElliottHood/Smooth-Pixel-Perfect-Camera/raw/refs/heads/main/GithubResources/Demo1.mp4)
 
 Implementation:
 - The scene is rendered by the World -> Pixel camera, downscaled, and sent to a render texture
