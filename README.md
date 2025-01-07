@@ -3,7 +3,7 @@
 Achieve a low-resolution effect while keeping consistent shapes for sprites and objects that are not aligned perfectly with a grid without rough pixel snapping.
 Upscaling the low-resolution effect again allows us to get sub-pixel camera movement and smooth post processing effects
 
-![Demo](./GithubResources/Demo1.mp4)
+[![Demo Video](https://raw.githubusercontent.com/ElliottHood/Smooth-Pixel-Perfect-Camera/GithubResources/thumbnail.png)](https://raw.githubusercontent.com/ElliottHood/Smooth-Pixel-Perfect-Camera/GithubResources/Demo1.mp4)
 
 Implementation:
 - The scene is rendered by the World -> Pixel camera, downscaled, and sent to a render texture
@@ -24,8 +24,6 @@ Implementation:
 
 ## Dependencies
 
-- DOTween
-- Effector Values package
 - Cinemachine
 
 ## Installation

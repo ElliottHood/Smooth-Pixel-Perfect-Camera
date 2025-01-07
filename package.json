@@ -12,7 +12,7 @@
     "samples": [
       {
         "displayName": "Demo",
-        "description": "A sample scene to demonstrate the package. REQUIRES Custom-Camera package!",
+        "description": "A sample scene to demonstrate the package. REQUIRES Custom-Camera package, Effector-Value package, and DOTween v2\nhttps://github.com/ElliottHood/Custom-Camera \nhttps://github.com/ElliottHood/Effector-Value \nhttps://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676?srsltid=AfmBOoqyrsiztxHBW_7C0KZ2XvqIJr8TqjsAJDm8VMTizonY6z4oObCg",
         "path": "Samples~/Sample Scene"
       }
     ]
