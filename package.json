@@ -1,0 +1,19 @@
+{
+    "name": "com.shellter.effector-value",
+    "version": "1.0.0",
+    "displayName": "Effector Values",
+    "description": "Animate float values and combine them into a single output that can be altered at runtime.",
+    "unity": "2022.3",
+    "author": {
+      "name": "Elliott Hood",
+      "email": "elliotthood0@gmail.com",
+      "url": "https://elliott-hood.com"
+    },
+    "samples": [
+      {
+        "displayName": "Effector Value Demo",
+        "description": "A sample scene to demonstrate the package.",
+        "path": "Samples~/Sample Scene"
+      }
+    ]
+}  
