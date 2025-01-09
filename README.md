@@ -3,7 +3,7 @@
 Achieve a low-resolution effect while keeping consistent shapes for sprites and objects that are not aligned perfectly with a grid without rough pixel snapping.
 Upscaling the low-resolution effect again allows us to get sub-pixel camera movement and smooth post processing effects
 
-[![Video Title](./GithubResources/Thumbnail.png)](https://www.youtube.com/watch?v=fMiD_gkmqSw)
+[![Video Title](./GithubResources/Thumbnail.png)](https://www.youtube.com/watch?v=fMiD_gkmqSw&list=PLzYV20nNEXeVQY1cYxisHZXnAuBQ8g9E4&index=3)
 
 Implementation:
 - The scene is rendered by the World -> Pixel camera, downscaled, and sent to a render texture
@@ -19,7 +19,7 @@ Implementation:
 
 - Inspired by Aarthificial: 
 
-[![Stealing Input From The Player](https://img.youtube.com/vi/jguyR4yJb1M/0.jpg)](https://www.youtube.com/watch?v=jguyR4yJb1M)
+[![Next-Gen Pixelart](https://img.youtube.com/vi/jguyR4yJb1M/0.jpg)](https://www.youtube.com/watch?v=jguyR4yJb1M)
 
 ## Known Bugs / Quirks 
 
