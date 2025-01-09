@@ -17,7 +17,9 @@ Implementation:
 
 ## References
 
-- Inspired by aarthificial, who has created an excellent explanation on the topic: https://www.youtube.com/watch?v=jguyR4yJb1M
+- Inspired by Aarthificial: 
+
+[![Stealing Input From The Player](https://img.youtube.com/vi/jguyR4yJb1M/0.jpg)](https://www.youtube.com/watch?v=jguyR4yJb1M)
 
 ## Known Bugs / Quirks 
 
