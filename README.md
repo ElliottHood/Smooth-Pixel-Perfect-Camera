@@ -41,4 +41,4 @@ Implementation:
 2. Install Cinemachine
 3. Click the **+** button in the top-left corner.
 4. Select **Add package from git URL...**.
-5. Enter the following URL: https://github.com/ElliottHood/Effector-Values.git
+5. Enter the following URL: https://github.com/ElliottHood/Smooth-Pixel-Perfect-Camera.git
